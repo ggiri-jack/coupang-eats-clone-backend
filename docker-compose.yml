@@ -1,0 +1,7 @@
+services:
+  api:
+    build: .
+    ports:
+      - 80:4001
+    volumes:
+      - ./:/usr/src/app
